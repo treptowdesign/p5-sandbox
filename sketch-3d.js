@@ -26,7 +26,6 @@ function draw() {
     let yOff = noise(noiseOffset + 10 + i) * 800 - 400;
     let zOff = noise(noiseOffset + 20 + i) * 800 - 400;
 
-
     translate(xOff, yOff, zOff); // Translate shape based on noise
 
     // Color and size based on Perlin noise
